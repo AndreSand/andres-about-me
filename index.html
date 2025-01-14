@@ -1,140 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andres Sandoval - Android Software Engineer</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andres Sandoval - Android Software Engineer</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
-    <div class="max-w-5xl mx-auto px-4 py-12">
-        <header class="text-center mb-16 relative">
-            <div class="relative inline-block">
-                <img src="assets/about_me_v3.png" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto mb-6 shadow-xl border-4 border-white">
-                <div class="absolute -bottom-2 right-0 bg-green-500 w-6 h-6 rounded-full border-4 border-white"></div>
-            </div>
-            <h1 class="text-5xl font-bold text-gray-800 mb-3">Andres Sandoval</h1>
-            <p class="text-2xl text-gray-600 mb-6">Android Software Engineer</p>
-            <div class="flex justify-center space-x-4 mb-8">
-                <a href="https://github.com/AndreSand" class="text-gray-600 hover:text-gray-900 transition-colors">
-                    <i class="fab fa-github text-2xl"></i>
-                </a>
-                <a href="https://medium.com/@AndreSand" class="text-gray-600 hover:text-gray-900 transition-colors">
-                    <i class="fab fa-medium text-2xl"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/andres-sandoval" class="text-gray-600 hover:text-gray-900 transition-colors">
-                    <i class="fab fa-linkedin text-2xl"></i>
-                </a>
-                <a href="https://g.dev/andres1" class="text-gray-600 hover:text-gray-900 transition-colors">
-                    <i class="fab fa-google text-2xl"></i>
-                </a>
-            </div>
-            <a href="https://buymeacoffee.com/andresand" 
-               class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-yellow-400 to-yellow-500 text-white font-medium rounded-lg hover:from-yellow-500 hover:to-yellow-600 transition duration-300 shadow-lg transform hover:-translate-y-1">
-                <i class="fas fa-coffee mr-2"></i> Buy me a coffee
-            </a>
-        </header>
 
-        <section class="bg-white rounded-2xl shadow-xl p-8 mb-12 transform transition-all hover:scale-[1.01]">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800 flex items-center">
-                <i class="fas fa-user-circle mr-3 text-blue-500"></i>About Me
-            </h2>
-            <p class="text-gray-700 text-lg leading-relaxed mb-6">
-                I'm a passionate Android Software Engineer with over 11 years of experience. I specialize in Android development, mobile security, and modern development practices including Jetpack Compose, Kotlin Multiplatform, Testing, Automation Testing and CI/CD implementation.
-            </p>
-        </section>
+<body style="background: linear-gradient(135deg, #ffffff 0%, #bfdbfe 100%);" class="min-h-screen text-gray-800">
+  <div class="max-w-5xl mx-auto px-4 py-12">
+    <header class="text-center mb-16 relative">
+      <div class="relative inline-block">
+        <img src="/api/placeholder/128/128" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto mb-6 shadow-xl border-4 border-white">
+        <div class="absolute -bottom-2 right-0 bg-green-500 w-6 h-6 rounded-full border-4 border-white"></div>
+      </div>
+      <h1 class="text-5xl font-bold text-gray-800 mb-3">Andres Sandoval</h1>
+      <p class="text-2xl text-gray-600 mb-8">Android Software Engineer</p>
 
-        <section class="bg-white rounded-2xl shadow-xl p-8 mb-12 transform transition-all hover:scale-[1.01]">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800 flex items-center">
-                <i class="fas fa-mobile-alt mr-3 text-blue-500"></i>Published Apps
-            </h2>
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors">
-                    <h3 class="font-bold text-lg mb-2">My Important Dates</h3>
-                    <p class="text-gray-600 mb-4">Android App • 1K+ Downloads</p>
-                    <a href="https://play.google.com/store/apps/details?id=com.myimportantdates" 
-                       class="text-blue-500 hover:text-blue-700 flex items-center">
-                        <i class="fab fa-google-play mr-2"></i>View on Play Store
-                    </a>
-                </div>
-                <div class="p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors">
-                    <h3 class="font-bold text-lg mb-2">My Important Dates iOS</h3>
-                    <p class="text-gray-600 mb-4">iOS App • Kotlin Multiplatform</p>
-                    <a href="https://apps.apple.com/us/app/myimportantdateskmp/id6736870590?platform=iphone"
-                       class="text-blue-500 hover:text-blue-700 flex items-center">
-                        <i class="fab fa-app-store-ios mr-2"></i>View on App Store
-                    </a>
-                </div>
-                <div class="p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors">
-                    <h3 class="font-bold text-lg mb-2">Tour Guide</h3>
-                    <p class="text-gray-600 mb-4">Android App • Gemini AI API</p>
-                    <a href="https://play.google.com/store/apps/details?id=com.travel.guide.geminihello"
-                       class="text-blue-500 hover:text-blue-700 flex items-center">
-                        <i class="fab fa-google-play mr-2"></i>View on Play Store
-                    </a>
-                </div>
-            </div>
-        </section>
+      <div class="flex flex-col items-center space-y-6">
+        <div class="flex justify-center space-x-12">
+          <a href="https://github.com/AndreSand"
+            class="group flex flex-col items-center text-gray-700 hover:text-gray-900 transition-colors p-4">
+            <i class="fab fa-github text-3xl mb-2 group-hover:scale-110 transition-transform"></i>
+            <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">GitHub</span>
+          </a>
+          <a href="https://medium.com/@AndreSand"
+            class="group flex flex-col items-center text-gray-700 hover:text-gray-900 transition-colors p-4">
+            <i class="fab fa-medium text-3xl mb-2 group-hover:scale-110 transition-transform"></i>
+            <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">Medium</span>
+          </a>
+          <a href="https://www.linkedin.com/in/andres-sandoval"
+            class="group flex flex-col items-center text-gray-700 hover:text-gray-900 transition-colors p-4">
+            <i class="fab fa-linkedin text-3xl mb-2 group-hover:scale-110 transition-transform"></i>
+            <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">LinkedIn</span>
+          </a>
+          <a href="https://g.dev/andres1"
+            class="group flex flex-col items-center text-gray-700 hover:text-gray-900 transition-colors p-4">
+            <i class="fab fa-google text-3xl mb-2 group-hover:scale-110 transition-transform"></i>
+            <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">Google Dev</span>
+          </a>
+        </div>
 
-        <section class="bg-white rounded-2xl shadow-xl p-8 mb-12 transform transition-all hover:scale-[1.01]">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800 flex items-center">
-                <i class="fas fa-code mr-3 text-blue-500"></i>Technical Skills
-            </h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
-                    <i class="fab fa-android mb-2"></i>
-                    <span>Android</span>
-                </div>
-                <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
-                    <i class="fas fa-code mb-2"></i>
-                    <span>Kotlin</span>
-                </div>
-                <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
-                    <i class="fas fa-layer-group mb-2"></i>
-                    <span>Jetpack Compose</span>
-                </div>
-                <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
-                    <i class="fas fa-fire mb-2"></i>
-                    <span>Firebase</span>
-                </div>
-                <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
-                    <i class="fab fa-docker mb-2"></i>
-                    <span>Docker</span>
-                </div>
-                <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
-                    <i class="fas fa-brain mb-2"></i>
-                    <span>Gemini AI API</span>
-                </div>
-                <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
-                    <i class="fas fa-robot mb-2"></i>
-                    <span>Open AI API</span>
-                </div>
-                <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
-                    <i class="fas fa-infinity mb-2"></i>
-                    <span>CI/CD</span>
-                </div>
-            </div>
-        </section>
-
-        <footer class="text-center text-gray-600 mt-16">
-            <div class="mb-4">
-                <i class="fas fa-map-marker-alt text-gray-400 mr-2"></i>
-                <span>Based in San Jose, CA</span>
-            </div>
-            <div class="flex items-center justify-center">
-                <i class="fas fa-envelope text-gray-400 mr-2"></i>
-                <a href="mailto:andresasandovalq05@gmail.com" class="hover:text-gray-900 transition-colors">
-                    andresasandovalq05@gmail.com
-                </a>
-            </div>
-        </footer>
-    </div>
-
-    <div class="fixed bottom-8 right-8">
-        <a href="#" class="bg-blue-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-600 transition-colors">
-            <i class="fas fa-arrow-up"></i>
+        <a href="https://buymeacoffee.com/andresand"
+          class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium rounded-lg hover:from-blue-700 hover:to-blue-800 transition duration-300 shadow-lg transform hover:-translate-y-1 hover:scale-105">
+          <i class="fas fa-coffee text-xl mr-3"></i>
+          <span class="text-lg">Buy me a coffee</span>
         </a>
-    </div>
+      </div>
+    </header>
+
+    <section class="bg-white bg-opacity-90 rounded-2xl shadow-xl p-8 mb-12 transform transition-all hover:scale-[1.01]">
+      <h2 class="text-3xl font-bold mb-6 text-gray-800 flex items-center">
+        <i class="fas fa-user-circle mr-3 text-blue-600"></i>About Me
+      </h2>
+      <p class="text-gray-700 text-lg leading-relaxed mb-6">
+        I'm a passionate Android Software Engineer with over 11 years of experience. Currently working at Google on AdMob Android security projects and contributing to Android open source libraries. I specialize in Android development, mobile security, and modern development practices including Jetpack Compose, Kotlin Multiplatform, Testing, Automation Testing and CI/CD implementation.
+      </p>
+    </section>
+
+    <section class="bg-white bg-opacity-90 rounded-2xl shadow-xl p-8 mb-12 transform transition-all hover:scale-[1.01]">
+      <h2 class="text-3xl font-bold mb-6 text-gray-800 flex items-center">
+        <i class="fas fa-mobile-alt mr-3 text-blue-600"></i>Published Apps
+      </h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-xl bg-blue-50 hover:bg-blue-100 transition-colors">
+          <h3 class="font-bold text-lg mb-2 text-gray-800">My Important Dates</h3>
+          <p class="text-gray-600 mb-4">Android App • 1K+ Downloads</p>
+          <a href="https://play.google.com/store/apps/details?id=com.myimportantdates"
+            class="text-blue-600 hover:text-blue-700 flex items-center">
+            <i class="fab fa-google-play mr-2"></i>View on Play Store
+          </a>
+        </div>
+        <div class="p-6 rounded-xl bg-blue-50 hover:bg-blue-100 transition-colors">
+          <h3 class="font-bold text-lg mb-2 text-gray-800">My Important Dates iOS</h3>
+          <p class="text-gray-600 mb-4">iOS App • Kotlin Multiplatform</p>
+          <a href="https://apps.apple.com/us/app/myimportantdateskmp/id6736870590?platform=iphone"
+            class="text-blue-600 hover:text-blue-700 flex items-center">
+            <i class="fab fa-app-store-ios mr-2"></i>View on App Store
+          </a>
+        </div>
+        <div class="p-6 rounded-xl bg-blue-50 hover:bg-blue-100 transition-colors">
+          <h3 class="font-bold text-lg mb-2 text-gray-800">Tour Guide</h3>
+          <p class="text-gray-600 mb-4">Android App • Gemini AI API</p>
+          <a href="https://play.google.com/store/apps/details?id=com.travel.guide.geminihello"
+            class="text-blue-600 hover:text-blue-700 flex items-center">
+            <i class="fab fa-google-play mr-2"></i>View on Play Store
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white bg-opacity-90 rounded-2xl shadow-xl p-8 mb-12 transform transition-all hover:scale-[1.01]">
+      <h2 class="text-3xl font-bold mb-6 text-gray-800 flex items-center">
+        <i class="fas fa-code mr-3 text-blue-600"></i>Technical Skills
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-blue-50 text-gray-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
+          <i class="fab fa-android mb-2"></i>
+          <span>Android</span>
+        </div>
+        <div class="bg-blue-50 text-gray-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
+          <i class="fas fa-code mb-2"></i>
+          <span>Kotlin</span>
+        </div>
+        <div class="bg-blue-50 text-gray-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
+          <i class="fas fa-layer-group mb-2"></i>
+          <span>Jetpack Compose</span>
+        </div>
+        <div class="bg-blue-50 text-gray-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
+          <i class="fas fa-fire mb-2"></i>
+          <span>Firebase</span>
+        </div>
+        <div class="bg-blue-50 text-gray-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
+          <i class="fab fa-docker mb-2"></i>
+          <span>Docker</span>
+        </div>
+        <div class="bg-blue-50 text-gray-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
+          <i class="fas fa-brain mb-2"></i>
+          <span>Gemini AI API</span>
+        </div>
+        <div class="bg-blue-50 text-gray-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
+          <i class="fas fa-robot mb-2"></i>
+          <span>Open AI API</span>
+        </div>
+        <div class="bg-blue-50 text-gray-800 px-4 py-2 rounded-lg text-center font-medium hover:bg-blue-100 transition-colors">
+          <i class="fas fa-infinity mb-2"></i>
+          <span>CI/CD</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-gray-600 mt-16">
+      <div class="mb-4">
+        <i class="fas fa-map-marker-alt text-gray-600 mr-2"></i>
+        <span>Based in San Jose, CA</span>
+      </div>
+      <div class="flex items-center justify-center">
+        <i class="fas fa-envelope text-gray-600 mr-2"></i>
+        <a href="mailto:andresasandovalq05@gmail.com" class="hover:text-gray-800 transition-colors">
+          andresasandovalq05@gmail.com
+        </a>
+      </div>
+    </footer>
+  </div>
+
+  <div class="fixed bottom-8 right-8">
+    <a href="#"
+      class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
 </body>
+
 </html>
